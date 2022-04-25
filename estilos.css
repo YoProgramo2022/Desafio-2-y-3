@@ -1,0 +1,214 @@
+#inicio {
+    background-image: url("img/inicial.jpg");
+    background-size: cover;
+    background-color:  rgb(70,70,70);
+    background-blend-mode: soft-light;
+}
+
+body{
+    position: relative;   
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-brand{
+    padding: 10px;
+}
+
+.inicio{
+    min-height: calc(100vh - 56px - 158px);
+}
+
+.inicio p{
+       color: white;
+}
+
+.inicio h2{
+    padding-top: 100px;
+    color: white;
+}
+
+.inicio h4{
+    padding: 20px 0px 40px;
+    color: white;
+}
+
+footer {
+    left:0px;
+    bottom:0;    
+    width:100%; 
+    padding: 1em 0;   
+    margin-bottom: 15px; 
+    align-self: flex-end;     
+ }
+
+ footer p{
+      color: rgb(114, 113, 113);
+ }
+
+
+ footer ul{
+    list-style: none;   
+    display: flex;    
+    flex-direction: center;  
+    justify-content: center;     
+}
+
+footer ul li{
+    padding: 8px;    
+}
+
+
+ footer ul li img{
+    width: 35px;
+    height: 30px; 
+}
+
+.servicios h2{
+    padding-top: 100px;
+} 
+
+.grilla{    
+    margin-top: 80px;      
+}
+
+.grilla img {
+    width: 400px;  
+    height: 300px; 
+    margin-top: 10px;   
+}
+
+.grilla p{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid;
+}
+
+.titulo{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.nosotros .texto{
+    padding-top: 10px;
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.nosotros .button{
+   padding-top: 20px; 
+   text-align: center;
+}
+
+.foto{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+
+
+}
+.nosotros .foto{
+    padding-top: 20px;     
+ }
+
+
+ div.noticia {
+    width: 50%;
+    margin: 20px auto;     
+    padding: 15px;
+  }
+
+  .izquierda{
+    width: 50%;
+    justify-content: center;    
+  }
+
+  div.noticia p{
+      text-align: center;
+  }
+
+  div.noticia h2{
+    text-align: center;
+}
+
+
+  div.noticia img.izquierda {
+    float: right;
+    margin-right: 15px;
+  }
+  
+  .contacto .titulo{
+      bottom: 0;
+  }
+
+  .contacto .texto{    
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .formulario {     
+      padding: 30px;
+      margin: auto;
+      width: 80%;
+      margin-top: 70px;
+      border-radius: 4px;
+      font-family:"calibri";
+      background-color: rgb(94, 93, 93);
+      text-align: center;
+  }
+
+  .controls{
+       width: 50%;
+       margin-bottom: 15px;       
+       border-radius: 5px;  
+       border-style: solid; 
+       border-width: 1px;        
+       padding-left: 10px;
+       margin-bottom: 20px; 
+       padding-top: 12px; 
+       flex-direction: column;
+       justify-content: flex-start;      
+   }
+
+     textarea{       
+       width: 50%;       
+       height: 100px;
+       border-radius: 5px;  
+       border-style: solid; 
+       border-width: 1px;        
+       padding-left: 10px;
+       margin-bottom: 0px;      
+   }  
+
+   .formulario .btn-primary{       
+       margin-top: 20px;       
+   }
+
+   .formulario h6{
+       color: white;
+   }
+    
+   .formulario h3{
+       color: white;
+   }
+
+   
+
+ 
